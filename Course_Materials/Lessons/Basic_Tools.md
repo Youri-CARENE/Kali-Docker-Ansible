@@ -1,10 +1,15 @@
-# Leçon 3 : Outils de base de Kali Linux
+# Leçon 3 : Outils de base dans Kali Linux
 
-Kali Linux est livré avec une panoplie d'outils de sécurité. Voici quelques-uns des plus importants que nous allons découvrir :
+Kali Linux vient avec une panoplie d'outils puissants pour tester la sécurité des systèmes. Voici quelques outils essentiels que vous utiliserez fréquemment :
 
-## 1. **Nmap**
-Nmap est un scanner de réseau qui permet de découvrir des hôtes et services sur un réseau, en cartographiant les ports ouverts.
+## 1. **Nmap** : Outil de balayage réseau
+- Utilisé pour scanner les réseaux et identifier les hôtes actifs.
+- Commande de base : `nmap <adresse_ip>`
 
-### Commande de base
-```shell
-nmap <adresse IP>
+## 2. **Metasploit** : Framework d'exploitation
+- Utilisé pour tester les vulnérabilités des systèmes et des applications.
+- Commande de base : `msfconsole`
+
+## 3. **Wireshark** : Analyseur de paquets réseau
+- Utilisé pour capturer et analyser le trafic réseau.
+- Interface graphique facile à utiliser pour les débutants.
